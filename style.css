@@ -100,6 +100,12 @@ section{
   width: auto;
   height: auto;
 }
+.imagem img {
+  max-width:1000px;
+  max-height:1000px;
+  width: auto;
+  height: auto;
+}
 .dev .texto1{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
