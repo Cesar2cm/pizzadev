@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 body {
-  font: 400 1rem 'DM Sans', 'sans-serif';
+  font: 400 1rem 'DM Sans', 'sans-serif', 'Dancing Script';
   background-color: var(--body-color);
   color: var(--text-color);
 }
@@ -115,4 +115,8 @@ section{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
+}
+.dev .logo{
+  font: 700 3.5rem 'Dancing Script';
+  color: var(--title-color);
 }
