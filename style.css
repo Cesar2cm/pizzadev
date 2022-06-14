@@ -140,6 +140,24 @@ nav.show div.icon-close{
   text-align: center;
 }
 
+#about .texto{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+#about .texto h1{
+  margin-bottom: 1rem;
+}
+#about .texto p{
+  margin-bottom: 1.5rem;
+}
+#about .imagem{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+
 .button{
   background-color: var(--base-color);
   color: var(--text-color-light);
