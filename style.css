@@ -156,6 +156,17 @@ nav.show div.icon-close{
   margin-right: 1.5rem;
   text-align: center;
 }
+#services .texto{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+#services .texto h1{
+  margin-bottom: 1rem;
+}
+#services .texto p{
+  margin-bottom: 1.5rem;
+}
 
 
 .button{
@@ -188,11 +199,11 @@ nav.show div.icon-close{
   --body-color: rgb(197, 197, 197);
 }
 .divider {
-  height: 1px;
+  height: 4px;
   background: linear-gradient(
-     270deg,
-     hsla(var(--hue),36%,57%,1) 0%,
-     hsla(var(--hue),65%,88%,0.34) 100%
+  270deg,
+  hsla(var(--hue),36%,57%,1) 0%,
+  hsla(var(--hue),65%,88%,0.34) 100%
   );
 }
 
@@ -221,4 +232,20 @@ nav.show div.icon-close{
 .dev .logo{
   font: 700 3.5rem 'Dancing Script';
   color: var(--title-color);
+}
+.justify_text{
+  text-align: justify;
+}
+.card{
+  padding: 3.625rem 2rem;
+  box-shadow: var(--base-color);
+  border-bottom: .25rem solid var(--base-color);
+  border-radius: .25rem .25rem 0 0;
+  text-align: center;
+}
+.card i{
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 10rem;
+  color: var(--base-color);
 }
